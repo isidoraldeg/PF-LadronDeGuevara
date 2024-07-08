@@ -1,0 +1,18 @@
+.boton1 {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+
+.nueva-galeria {
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.img-galeria-top {
+    height: 100%;
+}
+
+.btn {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}

@@ -1,0 +1,28 @@
+.container-foto::before {
+    content: "iladrondeguevaraf@gmail.com";
+    position: absolute;
+    bottom: 35%;
+    background-color: #CDFFCC;
+    font-weight: 600;
+    font-size: .4em;
+    padding: .50rem .5rem;
+    border-radius: 8px;
+    color: $mainColor;
+
+    display: none;
+    transform: scale(2);
+}
+
+.container-foto:hover::before {
+    display: inline-block;
+}
+
+.img-fluid {
+    width: 550px;
+    justify-content: center;
+    
+}
+
+.container-foto {
+    justify-content: center;
+}

@@ -1,0 +1,16 @@
+.cardss {
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    .card-img-top {
+        height: 100%;
+    } 
+}
+
+.card {
+    transition: transform .3s;
+}
+
+.card:hover {
+    transform: scale(1.1) translateY(-40px);
+}

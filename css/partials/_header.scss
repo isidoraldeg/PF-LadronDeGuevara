@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    gap: 44px;
+    padding: 22px;
+    flex-direction: column;
+
+    .titulo a {
+        color: $mainColor;
+        font-family: $fontInter;
+        font-weight: 400;
+        font-size: 34px;
+        padding-left: 75px;
+        text-decoration: none;
+        display: flex;
+    }
+
+    .menu {
+        list-style-type: none;
+    }
+    
+    .menu li {
+        margin-right: 10px; 
+        padding-left: 44px;
+        padding-bottom: 10px;
+    } 
+    
+    .menu li a {
+        color: $mainColor;
+        text-decoration: none;
+    }
+
+    .menu__contacto {
+        background-color: #CDFFCC;
+    }
+    
+    .menu__bio {
+        background-color: #E5F42E;
+    }
+    
+    .menu__isla {
+        background-color: #FF8D8D;
+    }
+    
+    .menu__trabajos {
+        background-color: #CCFFFC;
+    }
+    
+    .menu a:hover {
+        text-decoration: underline;
+    }
+    
+    .main {
+        padding: 0px;
+    }
+}

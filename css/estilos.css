@@ -1,1 +1,196 @@
-/*# sourceMappingURL=estilos.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+*::-moz-selection {
+  background-color: rgb(245, 0, 143);
+  color: white;
+}
+*::selection {
+  background-color: rgb(245, 0, 143);
+  color: white;
+}
+
+body {
+  background-color: #D4D5C2;
+}
+
+header {
+  display: flex;
+  gap: 44px;
+  padding: 22px;
+  flex-direction: column;
+}
+header .titulo a {
+  color: rgb(245, 0, 143);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  padding-left: 75px;
+  text-decoration: none;
+  display: flex;
+}
+header .menu {
+  list-style-type: none;
+}
+header .menu li {
+  margin-right: 10px;
+  padding-left: 44px;
+  padding-bottom: 10px;
+}
+header .menu li a {
+  color: rgb(245, 0, 143);
+  text-decoration: none;
+}
+header .menu__contacto {
+  background-color: #CDFFCC;
+}
+header .menu__bio {
+  background-color: #E5F42E;
+}
+header .menu__isla {
+  background-color: #FF8D8D;
+}
+header .menu__trabajos {
+  background-color: #CCFFFC;
+}
+header .menu a:hover {
+  text-decoration: underline;
+}
+header .main {
+  padding: 0px;
+}
+
+.imagenPrincipal {
+  padding: 0px;
+}
+.imagenPrincipal .flor {
+  width: 100%;
+}
+
+section {
+  padding-left: 22px;
+}
+
+.h1-bio {
+  margin-left: 70px;
+  padding: 22px;
+}
+
+.bio-about {
+  display: flex;
+  background-color: #E5F42E;
+  width: auto;
+  margin: 0px 75px 8px 75px;
+  justify-content: center;
+}
+.bio-about :hover {
+  background-color: white;
+}
+
+.exposiciones {
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
+  width: 50%;
+  margin-left: 75px;
+}
+.exposiciones .exposicion {
+  padding: 16px;
+  background-color: #E5F42E;
+}
+.exposiciones::-moz-selection {
+  background-color: rgb(245, 0, 143);
+}
+.exposiciones::selection {
+  background-color: rgb(245, 0, 143);
+}
+
+.container {
+  justify-content: center;
+}
+
+.col:nth-child(1) {
+  background-color: #dae654;
+  margin-bottom: 4px;
+}
+
+.col:nth-child(2) {
+  background-color: #e3ec81;
+  margin-bottom: 4px;
+}
+
+.col:nth-child(3) {
+  background-color: #edf3ad;
+  margin-bottom: 4px;
+}
+
+.boton1 {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+}
+
+.nueva-galeria {
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.img-galeria-top {
+  height: 100%;
+}
+
+.btn {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.cardss {
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.cardss .card-img-top {
+  height: 100%;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1) translateY(-40px);
+}
+
+.container-foto::before {
+  content: "iladrondeguevaraf@gmail.com";
+  position: absolute;
+  bottom: 35%;
+  background-color: #CDFFCC;
+  font-weight: 600;
+  font-size: 0.4em;
+  padding: 0.5rem 0.5rem;
+  border-radius: 8px;
+  color: rgb(245, 0, 143);
+  display: none;
+  transform: scale(2);
+}
+
+.container-foto:hover::before {
+  display: inline-block;
+}
+
+.img-fluid {
+  width: 550px;
+  justify-content: center;
+}
+
+.container-foto {
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+}/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,39 @@
+.bio-about {
+    display: flex;
+    background-color: #E5F42E;
+    width: auto;
+    margin: 0px 75px 8px 75px;
+    justify-content: center;
+
+    :hover {
+        background-color: white;
+    }
+}
+
+.exposiciones {
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+    width: 50%;
+    margin-left: 75px;
+
+    .exposicion {
+        padding: 16px;
+        background-color: #E5F42E;
+    }
+
+    &::selection {
+        background-color: $mainColor;
+    }
+}
+
+.container {
+    justify-content: center;
+}
+
+@for $i from 1 through 3 {
+    .col:nth-child(#{$i}) {
+        background-color: lighten($color: #d0df28, $amount: $i*10);
+        margin-bottom: 4px;
+    }
+}
